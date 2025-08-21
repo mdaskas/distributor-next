@@ -1,0 +1,26 @@
+npx create-next-app@latest myproject
+cd myproject
+
+npx shadcn@latest init
+
+npm install react-hook-form
+npm install @hookform/resolvers
+npm install zod
+
+** to add shadcn components
+npx shadcn@latest add Button
+
+*** Prism Installation
+npm i prisma -D
+npx prisma init --datasource-provider sqlite
+npx prisma db pull
+npx prisma generate
+
+// After any db update run:
+npx prisma db push
+
+// To see DB in browser
+npx prisma studio
+
+
+npx prisma db seed
