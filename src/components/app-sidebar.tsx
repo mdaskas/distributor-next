@@ -3,7 +3,6 @@
 import * as React from "react"
 import {
   AudioWaveform,
-  BookOpen,
   Bot,
   Command,
   Frame,
@@ -58,7 +57,7 @@ const data = {
       isActive: true,
       items: [
         {
-          title: "Products",
+          title: "Product Listing",
           url: "/products",
         },
         {
@@ -68,44 +67,13 @@ const data = {
       ],
     },
     {
-      title: "Models",
+      title: "Customers",
       url: "#",
       icon: Bot,
       items: [
         {
-          title: "Genesis",
-          url: "#",
-        },
-        {
-          title: "Explorer",
-          url: "#",
-        },
-        {
-          title: "Quantum",
-          url: "#",
-        },
-      ],
-    },
-    {
-      title: "Settings",
-      url: "#",
-      icon: Settings2,
-      items: [
-        {
-          title: "General",
-          url: "#",
-        },
-        {
-          title: "Team",
-          url: "#",
-        },
-        {
-          title: "Billing",
-          url: "#",
-        },
-        {
-          title: "Limits",
-          url: "#",
+          title: "Customer Listing",
+          url: "/customers",
         },
       ],
     },
